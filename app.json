@@ -1,28 +1,29 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/Login/Login"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarTitleText": "清团助手",
-    "navigationBarBackgroundColor": "#000000",
+    "navigationBarBackgroundColor": "#2B2A30",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color": "#000000",
-    "selectedColor": "#1B4F72",
-    "borderStyle": "black",
-    ""
+    "color": "#FFFFFF",
+    "selectedColor": "#FDAA29",
+    "borderStyle": "#2b2a30",
+    "backgroundColor": "#2b2a30",
     "list": [
       {
-        "selectedIconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png",
         "iconPath": "images/home.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
-        "selectedIconPath": "images/mine.png",
+        "selectedIconPath": "images/mine-selected.png",
         "iconPath": "images/mine.png",
         "pagePath": "pages/logs/logs",
         "text": "我的"
