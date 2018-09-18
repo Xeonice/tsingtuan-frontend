@@ -1,1 +1,7 @@
 
+.placeholder{
+    background-color: #EBEBEB;
+    margin-bottom: 36px;
+    height: 200px;
+    color: #cfcfcf;
+}

@@ -11,7 +11,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.2.3",
+	"libVersion": "2.3.0",
 	"appid": "wxcc08e5eb78aeb365",
 	"projectname": "tsingtuan-frontend",
 	"isGameTourist": false,
