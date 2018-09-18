@@ -1,52 +1,58 @@
 <!--index.wxml-->
-<view class="header">
-  <open-data class='avatar' mode='aspectFit' type='userAvatarUrl'></open-data>
-  <navigator url="../Login/Login" class="intro">来啦少年？请点击此处加入</navigator>
-</view>
+<view class="page">
+    <view class="weui-panel__hd header">
+        <open-data class='avatar' mode='aspectFit' type='userAvatarUrl'></open-data>
+        <navigator url="../Login/Login" class="intro">来啦少年？请点击此处加入</navigator>
+    </view>
+    <view class="weui-panel__bd">
+        <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                <i class="iconfont icon-HR"></i>
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                <view class="weui-media-box__title">人事安排</view>
+                <view class="weui-media-box__desc">招新、换届选举、权限开放、内部考评等</view>
+            </view>
+        </navigator>
+        <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                <i class="iconfont icon-Account"></i>
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                <view class="weui-media-box__title">预算采购报销</view>
+                <view class="weui-media-box__desc">活动预算申请、采购商推荐、统一报账管理</view>
+            </view>
+        </navigator>
+        <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                <i class="iconfont icon-Coop"></i>
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                <view class="weui-media-box__title">拉赞助 & 社团联动</view>
+                <view class="weui-media-box__desc">办活动却找不到赞助商？试试这里</view>
+            </view>
+        </navigator>
+        <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                <i class="iconfont icon-Task"></i>
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                <view class="weui-media-box__title">任务分配</view>
+                <view class="weui-media-box__desc">活动任务分配、ddl提醒、历史任务备份</view>
+            </view>
+        </navigator>
+        <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                <i class="iconfont icon-Assign"></i>
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                <view class="weui-media-box__title">一键签到</view>
+                <view class="weui-media-box__desc">时间、地点、值班心情全纪录</view>
+            </view>
+        </navigator>
+    </view>
 
-<view class="list">
-  <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover" class="list-item">
-    <i class="iconfont icon-HR"></i>
-    <view class="list-item-textarea">
-      <text>人事安排</text>
-      <text>招新、换届选举、权限开放、内部考评等</text>
+    <view class="weui-footer footer">
+        <view class="weui-footer__text">加入后才能使用全部功能哟~</view>
     </view>
-    <hr/>
-  </navigator>
-  <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover" class="list-item">
-    <i class="iconfont icon-Account"></i>
-    <view class="list-item-textarea">
-      <text>预算采购报销</text>
-      <text>活动预算申请、采购商推荐、统一报账管理</text>
-    </view>
-    <hr/>
-  </navigator>
-  <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover" class="list-item">
-    <i class="iconfont icon-Coop"></i>
-    <view class="list-item-textarea">
-      <text>拉赞助 & 社团联动</text>
-      <text>办活动却找不到赞助商？试试这里</text>
-    </view>
-    <hr/>
-  </navigator>
-  <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover" class="list-item">
-    <i class="iconfont icon-Task"></i>
-    <view class="list-item-textarea">
-      <text>任务分配</text>
-      <text>活动任务分配、ddl 提醒、历史任务备份</text>
-    </view>
-    <hr/>
-  </navigator>
-  <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover" class="list-item">
-    <i class="iconfont icon-Assign"></i>
-    <view class="list-item-textarea">
-      <text>一键签到</text>
-      <text>时间、地点、值班心情全纪录</text>
-    </view>
-    <hr/>
-  </navigator>
 </view>
-
-<text class="footer">
-  加入才能使用全部功能哟~
-</text>

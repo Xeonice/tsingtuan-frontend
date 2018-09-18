@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/Login/Login"
+    "pages/Login/Login",
+    "pages/Login/Login_success"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -25,7 +26,7 @@
       {
         "selectedIconPath": "images/mine-selected.png",
         "iconPath": "images/mine.png",
-        "pagePath": "pages/Login/Login",
+        "pagePath": "pages/logs/logs",
         "text": "我的"
       }
     ]
