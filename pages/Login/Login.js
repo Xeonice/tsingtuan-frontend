@@ -13,7 +13,7 @@ Page({
         //监听用户输入信息
         societyInput: "",
         //判断社团名是否被注册
-        isAuthed: false,
+        isOccupied: false,
         showTopTips: false
     },
     bindUniversityChange: function(e) {
@@ -45,20 +45,20 @@ Page({
                 let index = this.data.society.indexOf(societyInput);
                 console.log("已有该社团");
                 this.setData({
-                    isAuthed: true,
+                    isOccupied: true,
                     societyIndex: index,
                     societyInput: societyInput
                 })
-                console.log(this.data.isAuthed);
+                console.log(this.data.isOccupied);
             }
             else {
                 console.log("无该社团");
                 this.setData({
                     societyInput: societyInput,
-                    isAuthed: false
+                    isOccupied: false
                 })
             }
-        }, 700)
+        }, 500)
     },
     bindNameInput: function (e) {
         //事件防抖
@@ -72,7 +72,7 @@ Page({
             this.setData({
                 name: nameInput
             })
-        }, 700)
+        }, 500)
     },
     openSuccess: function () {
         if(!this.data.name || !this.data.universityIndex || !this.data.societyInput){

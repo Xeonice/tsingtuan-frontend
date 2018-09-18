@@ -1,0 +1,8 @@
+<template name="LoginHeader">
+    <view class="weui-toptips weui-toptips_warn" wx:if="{{showTopTips}}">请填写所有信息后继续</view>
+    <view class="weui-flex">
+        <view class="weui-flex__item">
+            <view class="placeholder"></view>
+        </view>
+    </view>
+</template>

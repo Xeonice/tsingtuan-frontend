@@ -1,0 +1,18 @@
+<template name="afterLogin">
+    <view class="weui-panel__hd header weui-flex">
+        <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                <open-data class='weui-media-box__thum avatar' mode='aspectFit' type='userAvatarUrl'></open-data>
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg weui-flex__item">
+                <text class="weui-media-box__title">张哲蕾 | 张ZX</text>
+                <text class="weui-media-box__desc">清华大学 | 散打社</text>
+                <text class="weui-media-box__desc">社长 | 全部权限</text>
+            </view>
+        </navigator>
+        <view class="weui-flex__item right-side-bar">
+            <image src="../../../images/upload.png" class="logo" />
+            <text class="switch-society">切换社团</text>
+        </view>
+    </view>
+</template>

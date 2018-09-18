@@ -1,0 +1,14 @@
+/* pages/template/beforeLogin.wxss */
+/**个人信息**/
+.header {
+  background-color: #2B2A30;
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.weui-media-box__bd_in-appmsg text {
+    color: white;
+}

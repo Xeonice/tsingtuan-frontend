@@ -1,5 +1,9 @@
 /**index.wxss**/
 /**iconfont 初始化**/
+@import "../template/beforeLogin/beforeLogin.wxss";
+@import "../template/afterLogin/afterLogin.wxss";
+@import "../template/list/list.wxss";
+
 @font-face {
   font-family: 'iconfont';  /* project id 841172 */
   src: url('//at.alicdn.com/t/font_841172_j7lr61wldhi.eot');
@@ -34,26 +38,8 @@
   content: "\e62c"
 }
 
-/**个人信息**/
-.header {
-  background-color: #2B2A30;
-  display: flex;
-  align-items: center;
-}
-.avatar {
-  width: 160rpx;
-  height: 160rpx;
-  border-radius: 8px;
-  overflow: hidden;
-}
-.intro {
-  margin-left: 24px;
-  color: white;
-  font-size: 36rpx;
-}
-.weui-media-box:last-child:after {
-    border-bottom: 1rpx solid #000;
-}
+
+
 
 /**footer**/
 .footer {
