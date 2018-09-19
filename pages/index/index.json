@@ -1,3 +1,7 @@
 {
-
+    "usingComponents": {
+        "List": "/components/List/list",
+        "After-Login": "/components/AfterLogin/AfterLogin",
+        "Before-Login": "/components/BeforeLogin/beforeLogin"
+    }
 }

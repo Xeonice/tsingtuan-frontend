@@ -1,51 +1,6 @@
-<import src="../template/LoginHeader/LoginHeader.wxml" />
 <view class="page" xmlns:wx="http://www.w3.org/1999/xhtml">
     <view class="page__bd">
-        <template is="LoginHeader" data="{{showTopTips}}"></template>
-        <view class="weui-cells weui-cells_after-title">
-            <view class="weui-cell weui-cell_input">
-                <view class="weui-cell__hd">
-                    <view class="weui-label">你的名字？</view>
-                </view>
-                <view class="weui-cell__bd">
-                    <input class="weui-input" placeholder="请输入真实姓名" bindinput="bindNameInput"/>
-                </view>
-            </view>
-            
-
-            <view class="weui-cell weui-cell_select">
-                <view class="weui-cell__hd weui-cell__hd_in-select-after">
-                    <view class="weui-label">你的学校？</view>
-                </view>
-                <view class="weui-cell__bd">
-                    <picker mode="selector" bindchange="bindUniversityChange" value="{{universityIndex}}" range="{{university}}">
-                        <view class="weui-select weui-select_in-select-after">{{university[universityIndex]}}</view>
-                    </picker>
-                </view>
-            </view>
-            <view class="weui-cell weui-cell_select" wx:if="{{universityIndex}}">
-                <view class="weui-cell__hd weui-cell__hd_in-select-after">
-                    <view class="weui-label">你的社团？</view>
-                </view>
-                <view class="weui-cell__bd">
-                    <picker mode="selector" bindchange="bindSociietyChange" value="{{societyIndex}}" range="{{society}}" wx:if="{{isOccupied}}">
-                        <view class="weui-select weui-select_in-select-after">{{society[societyIndex]}}</view>
-                    </picker>
-                    <input class="weui-input" bindinput="bindSociietyInput" placeholder="请输入您的社团" wx:else/>
-                </view>
-            </view>
-        </view>
-
-
-        <view class="weui-btn-area">
-            <button class="weui-btn" type="primary" bindtap="openSuccess" wx:if="{{isOccupied}}">加入社团</button>
-            <button class="weui-btn" type="primary" bindtap="openSuccess" wx:else>申请社团</button>
-        </view>
-        <view class="weui-footer" wx:if="{{isOccupied}}">
-            <view class="weui-footer__text">社团名字被恶意抢注了？</view>
-            <view class="weui-footer__links">
-                <navigator url="" class="weui-footer__link">点此申诉</navigator>
-            </view>
-        </view>
+        <Login-Header showTopTips="{{showTopTips}}"/>
+        <Login-List />
     </view>
 </view>

@@ -1,4 +1,4 @@
-/* pages/template/beforeLogin.wxss */
+/* components/beforeLogin/beforeLogin.wxss */
 /**个人信息**/
 .header {
   background-color: #2B2A30;

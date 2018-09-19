@@ -1,11 +1,8 @@
 <!--index.wxml-->
-<import src="../template/beforeLogin/beforeLogin.wxml" />
-<import src="../template/afterLogin/afterLogin.wxml" />
-<import src="../template/list/list.wxml" />
 <view class="page">
-    <template is="beforeLogin" wx:if="{{!isLogin}}"></template>
-    <template is="afterLogin" wx:else></template>
-    <template is="list"></template>
+    <After-Login wx:if="{{isLogin}}" />
+    <Before-Login wx:else />
+    <List />
     <view class="weui-footer footer">
         <view class="weui-footer__text">加入后才能使用全部功能哟~</view>
     </view>

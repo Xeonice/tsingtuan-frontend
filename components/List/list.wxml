@@ -1,0 +1,5 @@
+<!--components/Index_List/list.wxml-->
+<!--pages/template/list.wxml.wxml-->
+<view class="weui-panel__bd">
+    <List-Item wx:for="{{ListContent}}" content="{{item}}" />
+</view>

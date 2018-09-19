@@ -1,0 +1,20 @@
+/* components/List-item/item.wxss */
+.weui-media-box:last-child:after {
+    border-bottom: 1rpx solid #000;
+}
+
+.icon-HR:before { 
+  content: "\eb2d";
+}
+.icon-Account:before { 
+  content: "\e61c";
+}
+.icon-Coop:before {
+  content: "\e67d"
+}
+.icon-Task:before {
+  content: "\e60a"
+}
+.icon-Assign:before {
+  content: "\e62c"
+}

@@ -1,8 +1,5 @@
 /**index.wxss**/
 /**iconfont 初始化**/
-@import "../template/beforeLogin/beforeLogin.wxss";
-@import "../template/afterLogin/afterLogin.wxss";
-@import "../template/list/list.wxss";
 
 @font-face {
   font-family: 'iconfont';  /* project id 841172 */
@@ -12,7 +9,6 @@
   url('//at.alicdn.com/t/font_841172_j7lr61wldhi.ttf') format('truetype'),
   url('//at.alicdn.com/t/font_841172_j7lr61wldhi.svg#iconfont') format('svg');
 }
-
 .iconfont{
   font-family:"iconfont" !important;
   font-size:32px;font-style:normal;
@@ -21,25 +17,6 @@
   -moz-osx-font-smoothing: grayscale;
   color: #ffab00;
 }
-/**icon font 图标内容**/
-.icon-HR:before { 
-  content: "\eb2d";
-}
-.icon-Account:before { 
-  content: "\e61c";
-}
-.icon-Coop:before {
-  content: "\e67d"
-}
-.icon-Task:before {
-  content: "\e60a"
-}
-.icon-Assign:before {
-  content: "\e62c"
-}
-
-
-
 
 /**footer**/
 .footer {
