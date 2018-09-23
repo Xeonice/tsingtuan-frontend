@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "Search-Bar": "/components/SearchBar/Search_Bar",
+        "Sponsor-Content": "/components/Sponsor_Content/Sponsor_Content"
+    }
+}

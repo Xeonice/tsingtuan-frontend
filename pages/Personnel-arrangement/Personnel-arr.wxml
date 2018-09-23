@@ -1,0 +1,110 @@
+<!--pages/Personnel-arrangement/Personnel-arr.wxml-->
+<view class="page">
+    <Search-Bar />
+    <view class="weui-media-box weui-media-box_small-appmsg">
+        <view class="weui-cells weui-cells_in-small-appmsg">
+
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                    <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
+                </view>
+                <view class="weui-cell__bd weui-cell_primary">
+                    <view>权限分配</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                    <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
+                </view>
+                <view class="weui-cell__bd weui-cell_primary">
+                    <view>功勋墙</view>
+                </view>
+            </navigator>
+        </view>
+    </view>
+
+    <view class="weui-panel__bd">
+        <view class="weui-panel__hd department-header">
+            <text>2018届·秋季 散打社</text>
+            <view class="weui-cell_link">
+                <view class="weui-cell__bd">增加部门</view>
+            </view>
+        </view>
+        <view class="weui-panel weui-panel_access department-container">
+
+            <view class="weui-media-box weui-media-box_text">
+                <view class="weui-media-box__title weui-media-box__title_in-text department-title">
+                    <view class="group-msg">
+                        <text>管理员</text>
+                        <text class="modify-group-name">修改名称</text>
+                        <text>尚未考评</text>
+                    </view>
+                    <view class="weui-cell_link">
+                        <view class="weui-cell__bd">删除权限组</view>
+                    </view>
+                </view>
+                <view class="weui-media-box__desc">
+                    <view class="weui-flex">
+                        <view class="weui-flex__item">
+                            <image src="http://placekitten.com/72/72" class="member-icon"></image>
+                            <text>张哲蕾</text>
+                            <text>社长</text>
+                        </view>
+                        <view class="weui-flex__item">
+                            <image src="http://placekitten.com/72/72" class="member-icon"></image>
+                            <text>张哲蕾</text>
+                            <text>社长</text>
+                        </view>
+                        <view class="weui-flex__item">
+                            <image src="http://placekitten.com/72/72" class="member-icon"></image>
+                            <text>张哲蕾</text>
+                            <text>社长</text>
+                        </view>
+                        <view class="weui-flex__item">
+                        </view>
+                        <view class="weui-flex__item">
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="weui-panel weui-panel_access department-container">
+
+            <view class="weui-media-box weui-media-box_text">
+                <view class="weui-media-box__title weui-media-box__title_in-text department-title">
+                    <view class="group-msg">
+                        <text>管理员</text>
+                        <text class="modify-group-name">修改名称</text>
+                        <text>尚未考评</text>
+                    </view>
+                    <view class="weui-cell_link">
+                        <view class="weui-cell__bd">删除权限组</view>
+                    </view>
+                </view>
+                <view class="weui-media-box__desc">
+                    <view class="weui-flex">
+                        <view class="weui-flex__item">
+                            <image src="http://placekitten.com/72/72" class="member-icon"></image>
+                            <text>张哲蕾</text>
+                            <text>社长</text>
+                        </view>
+                        <view class="weui-flex__item">
+                            <image src="http://placekitten.com/72/72" class="member-icon"></image>
+                            <text>张哲蕾</text>
+                            <text>社长</text>
+                        </view>
+                        <view class="weui-flex__item">
+                            <image src="http://placekitten.com/72/72" class="member-icon"></image>
+                            <text>张哲蕾</text>
+                            <text>社长</text>
+                        </view>
+                        <view class="weui-flex__item">
+                        </view>
+                        <view class="weui-flex__item">
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

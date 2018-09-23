@@ -1,0 +1,5 @@
+<!--components/Sponsor_show_Item/Sponsor_item.wxml-->
+<view class="weui-panel__hd">
+    <navigator url="" class="weui-footer__link" wx:for="{{itemContent}}">{{item.title}}</navigator>
+</view>
+<Sponsor-Items Sponsor_msg="{{item}}" wx:for="{{itemContent}}" wx:key="*this"/>

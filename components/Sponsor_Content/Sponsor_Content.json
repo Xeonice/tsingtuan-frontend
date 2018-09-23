@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+      "Sponsor-Items": "/components/Sponsor_Content_Item/Sponsor_Content_Item"
+  }
+}

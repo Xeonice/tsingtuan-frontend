@@ -1,0 +1,44 @@
+/* pages/Personnel-arrangement/Personnel-arr.wxss */
+
+.member-icon {
+    width: 144rpx;
+    height: 144rpx;
+    padding: 6px;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+.member text {
+    text-align: center;
+}
+.weui-flex__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.department-title {
+    display: flex;
+    justify-content: space-between;
+}
+.department-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+
+}
+.department-container {
+    margin-top: 0;
+}
+.modify-group-name {
+    padding: 4px;
+    padding-bottom: 0;
+    font-size: 12px;
+    color: #999;
+}
+.group-msg {
+    font-size: 14px;
+}

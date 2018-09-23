@@ -30,7 +30,7 @@ Component({
                 title: "拉赞助 & 社团联动",
                 intro: "办活动却找不到赞助商？试试这里",
                 iconClass: "icon-Coop",
-                url: ""
+                url: "/pages/Sponsor-View/Sponsor"
             },
             {
                 title: "任务分配",

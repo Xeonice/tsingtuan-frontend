@@ -1,10 +1,10 @@
 <!--components/List-item/item.wxml-->
-<navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+<navigator url="{{content.url}}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
         <i class="iconfont {{content.iconClass}}"></i>
     </view>
     <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
         <view class="weui-media-box__title">{{content.title}}</view>
-        <view class="weui-media-box__desc">招新、换届选举、权限开放、内部考评等</view>
+        <view class="weui-media-box__desc">{{content.intro}}</view>
     </view>
 </navigator>
