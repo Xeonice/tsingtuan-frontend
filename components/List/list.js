@@ -18,7 +18,7 @@ Component({
                 title: "人事安排",
                 intro: "招新、换届选举、权限开放、内部考评等",
                 iconClass: "icon-HR",
-                url: ""
+                url: "/pages/Personnel-arrangement/Personnel-arr"
             },
             {
                 title: "预算采购报销",

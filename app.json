@@ -28,7 +28,7 @@
             {
                 "selectedIconPath": "images/mine-selected.png",
                 "iconPath": "images/mine.png",
-                "pagePath": "pages/Personnel-arrangement/Personnel-arr",
+                "pagePath": "pages/logs/logs",
                 "text": "我的"
             }
         ]
