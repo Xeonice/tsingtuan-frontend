@@ -18,12 +18,6 @@ Page({
         })
     },
     onLoad: function() {
-        request.POST("/insertIntoUniversity", {
-            name: "douglas",
-            university_code: "123"
-        }).then(res=> {
-            console.log(res);
-        })
         this.setData({
             isLogin: app.globalData.isLogin
         })

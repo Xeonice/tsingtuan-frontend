@@ -15,8 +15,8 @@
             <view class="weui-label">你的学校？</view>
         </view>
         <view class="weui-cell__bd">
-            <picker mode="selector" bindchange="bindUniversityChange" value="{{universityIndex}}" range="{{university}}">
-                <view class="weui-select weui-select_in-select-after">{{university[universityIndex]}}</view>
+            <picker mode="selector" bindchange="bindUniversityChange" value="{{universityIndex}}" range="{{university}}" range-key="name">
+                <view class="weui-select weui-select_in-select-after">{{university[universityIndex].name}}</view>
             </picker>
         </view>
     </view>
@@ -25,8 +25,8 @@
             <view class="weui-label">你的社团？</view>
         </view>
         <view class="weui-cell__bd">
-            <picker mode="selector" bindchange="bindSociietyChange" value="{{societyIndex}}" range="{{society}}" wx:if="{{isOccupied}}">
-                <view class="weui-select weui-select_in-select-after">{{society[societyIndex]}}</view>
+            <picker mode="selector" bindchange="bindSocietyChange" value="{{societyIndex}}" range="{{society}}" range-key="name" wx:if="{{isOccupied}}">
+                <view class="weui-select weui-select_in-select-after">{{society[societyIndex].name}}</view>
             </picker>
             <input class="weui-input" bindinput="bindSociietyInput" placeholder="请输入您的社团" wx:else/>
         </view>
@@ -35,7 +35,7 @@
 
 
 <view class="weui-btn-area">
-    <button class="weui-btn" type="primary" bindtap="openSuccess" wx:if="{{isOccupied}}">加入社团</button>
+    <button class="weui-btn" type="primary" bindtap="openSuccess" wx:if="{{isOccupied}}" >加入社团</button>
     <button class="weui-btn" type="primary" bindtap="openSuccess" wx:else>申请社团</button>
 </view>
 <view class="weui-footer" wx:if="{{isOccupied}}">
