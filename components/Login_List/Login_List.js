@@ -9,7 +9,7 @@ Component({
     properties: {
         university: {
             type: Array
-        },
+        }
     },
     options: {
         addGlobalClass: true,
@@ -124,9 +124,7 @@ Component({
         openSuccess: function() {
             if (!this.data.name || !this.data.universityIndex || !this.data.societyInput) {
                 console.log("请输入全部信息");
-                this.setData({
-                    showTopTips: true
-                })
+                this.triggerEvent('CheckTips', { showTopTips: true})
             } else {
                 //获取全部信息并传递
                 let that = this;

@@ -5,8 +5,7 @@ Component({
      */
     properties: {
         showTopTips: {
-            type: Boolean,
-            value: false,
+            type: Boolean
         },
     },
     options: {

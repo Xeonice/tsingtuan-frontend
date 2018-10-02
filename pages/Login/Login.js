@@ -5,6 +5,7 @@ Page({
      * 页面的初始数据
      */
     data: {
+        showTopTips: false,
         University: []
     },
 
@@ -70,5 +71,11 @@ Page({
      */
     onShareAppMessage: function() {
 
+    },
+    ChangeTips: function (e) {
+        //通过事件接收
+        this.setData({
+            showTopTips: e.detail.showTopTips
+        })
     }
 })
